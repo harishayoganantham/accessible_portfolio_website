@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="The personal portfolio of Your Name, showcasing skills, projects, and contact information.">
+  <meta name="author" content="Your Name">
+  <meta name="theme-color" content="#172554">
+  <meta property="og:title" content="Your Name | Portfolio">
+  <meta property="og:description" content="Explore my work, skills, and projects.">
+  <meta property="og:type" content="website">
+  <title>Your Name | Home</title>
+  <link rel="stylesheet" href="assets/style.css">
+  <script src="assets/script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Your Name portfolio home">Your Name<span>.</span></a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">
+      <span class="sr-only">Toggle navigation</span><span aria-hidden="true">☰</span>
+    </button>
+    <nav id="primary-nav" class="primary-nav" aria-label="Main navigation">
+      <ul>
+        <li><a aria-current="page" href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <p class="eyebrow">Welcome to my portfolio</p>
+      <h1 id="hero-title">Hello, I'm <span>Your Name</span>.</h1>
+      <p class="hero-copy">I'm an aspiring web developer who enjoys creating useful, accessible, and responsive digital experiences.</p>
+      <div class="actions">
+        <a class="button" href="projects.html">Explore my work</a>
+        <a class="button button-outline" href="contact.html">Get in touch</a>
+      </div>
+    </section>
+    <section class="content-section" aria-labelledby="intro-title">
+      <h2 id="intro-title">What I do</h2>
+      <div class="cards">
+        <article class="card"><h3>Web development</h3><p>Building responsive web pages with semantic HTML, CSS, and JavaScript.</p></article>
+        <article class="card"><h3>UI/UX design</h3><p>Thinking about clear layouts, simple interactions, and user-friendly experiences.</p></article>
+        <article class="card"><h3>Continuous learning</h3><p>Practising new skills through projects, courses, and collaborative work.</p></article>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer"><p>© <span data-year>2026</span> Your Name. Built with semantic HTML.</p></footer>
+</body>
+</html>
